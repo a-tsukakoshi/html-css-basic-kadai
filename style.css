@@ -1,0 +1,57 @@
+#margin0 {
+  margin: 0;
+}
+
+.text-color {
+  color: rgb(255,255,255);
+}
+.bar-deco {
+  margin: 0 0 20px 0;
+  background-color: rgb(244,79,79);
+  text-align: center;
+}
+
+#parent{
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contents{
+  border: solid 3px rgb(238,204,204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.h2-deco {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236,122,122);
+}
+h2::before {
+  content: "●";
+  color: rgb(239,111,139);
+}
+p:first-letter {
+  font-weight: bold;
+  color: rgb(97,206,249);
+}
+.img-deco {
+  margin: 10px 0;
+  width: 70%;
+}
+
+a:hover{
+  color: rgb(245,178,168);
+}
+a:visited{
+  color: rgb(193,234,251);
+}
+
+@media screen and (max-width: 768px) {
+  h2{font-size: 30px;}
+  p1{font-size: 25px;}
+  p{font-size: 25px;}
+  div{display: block;}
+}
